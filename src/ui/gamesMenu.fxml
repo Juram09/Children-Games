@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.GamesMenuController">
+       <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imgs/menus.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="matematicas" layoutX="35.0" layoutY="296.0" mnemonicParsing="false" onAction="#goMatematicas" opacity="0.01" prefHeight="1.0" prefWidth="101.0" />
+      <Button fx:id="lenguaje" layoutX="296.0" layoutY="295.0" mnemonicParsing="false" onAction="#goLenguaje" opacity="0.01" prefHeight="27.0" prefWidth="101.0" />
+      <Button fx:id="artes" layoutX="429.0" layoutY="485.0" mnemonicParsing="false" onAction="#goArtes" opacity="0.01" prefHeight="27.0" prefWidth="110.0" />
+      <Button fx:id="musica" layoutX="123.0" layoutY="485.0" mnemonicParsing="false" onAction="#goMusica" opacity="0.01" prefHeight="27.0" prefWidth="110.0" />
+      <Button fx:id="tetris" layoutX="563.0" layoutY="295.0" mnemonicParsing="false" onAction="#goTetris" opacity="0.01" prefHeight="27.0" prefWidth="101.0" />
+   </children>
+</AnchorPane>

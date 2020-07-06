@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="games.multiplicator.logic.MultiplicatorController">
+   <children>
+      <GridPane fx:id="grid" gridLinesVisible="true" layoutX="47.0" layoutY="106.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <ColorPicker fx:id="playerColor" layoutX="449.0" layoutY="137.0" maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="100.0" />
+      <ColorPicker fx:id="pcColor" layoutX="652.0" layoutY="135.0" maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="100.0" />
+      <Button fx:id="playButton" layoutX="574.0" layoutY="208.0" mnemonicParsing="false" onAction="#play" prefHeight="25.0" prefWidth="59.0" stylesheets="@../../../fonts/styles.css" text="JUGAR" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Label layoutX="463.0" layoutY="117.0" text="JUGADOR 1 ">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <Label layoutX="671.0" layoutY="115.0" text="JUGADOR 2">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <Label fx:id="playerLast" layoutX="449.0" layoutY="258.0" text="ULTIMO RESUTADO DEL JUGADOR 1" visible="false">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <Label fx:id="pcLast" layoutX="451.0" layoutY="293.0" text="ULTIMO RESUTADO DEL JUGADOR 2" visible="false">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <Button fx:id="dadosButton" disable="true" layoutX="550.0" layoutY="353.0" mnemonicParsing="false" onAction="#lanzarDados" stylesheets="@../../../fonts/styles.css" text="LANZAR DADOS" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Label fx:id="warning" alignment="CENTER" layoutX="453.0" layoutY="487.0" prefHeight="49.0" prefWidth="254.0" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="dice1" fitHeight="77.0" fitWidth="77.0" layoutX="490.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dice2" fitHeight="77.0" fitWidth="77.0" layoutX="594.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="firstDice1" fitHeight="25.0" fitWidth="25.0" layoutX="704.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="firstDice2" fitHeight="25.0" fitWidth="25.0" layoutX="739.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="secondDice2" fitHeight="25.0" fitWidth="25.0" layoutX="740.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="secondDice1" fitHeight="25.0" fitWidth="25.0" layoutX="705.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="19.0" prefHeight="45.0" prefWidth="800.0" styleClass="title" stylesheets="@../../../fonts/styles.css" text="DADOS MULTIPLICADORES" />
+   </children>
+</AnchorPane>

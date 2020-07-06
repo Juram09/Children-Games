@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="games.pairs.logic.PairsController">
+   <children>
+      <ImageView fx:id="img1" fitHeight="120.0" fitWidth="120.0" layoutX="58.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img2" fitHeight="120.0" fitWidth="120.0" layoutX="199.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img3" fitHeight="120.0" fitWidth="120.0" layoutX="340.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img4" fitHeight="120.0" fitWidth="120.0" layoutX="481.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img5" fitHeight="120.0" fitWidth="120.0" layoutX="622.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img6" fitHeight="120.0" fitWidth="120.0" layoutX="58.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img7" fitHeight="120.0" fitWidth="120.0" layoutX="199.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img8" fitHeight="120.0" fitWidth="120.0" layoutX="340.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img9" fitHeight="120.0" fitWidth="120.0" layoutX="481.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img10" fitHeight="120.0" fitWidth="120.0" layoutX="622.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img11" fitHeight="120.0" fitWidth="120.0" layoutX="129.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img12" fitHeight="120.0" fitWidth="120.0" layoutX="270.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img13" fitHeight="120.0" fitWidth="120.0" layoutX="411.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img14" fitHeight="120.0" fitWidth="120.0" layoutX="552.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/QuestionMark.jpg" />
+         </image></ImageView>
+      <Button fx:id="b1" layoutX="58.0" layoutY="119.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b2" layoutX="199.0" layoutY="119.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b3" layoutX="340.0" layoutY="119.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b4" layoutX="481.0" layoutY="119.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b5" layoutX="622.0" layoutY="119.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b6" layoutX="58.0" layoutY="260.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b7" layoutX="199.0" layoutY="260.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b8" layoutX="340.0" layoutY="260.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b9" layoutX="481.0" layoutY="260.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b10" layoutX="622.0" layoutY="260.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b11" layoutX="129.0" layoutY="396.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b12" layoutX="270.0" layoutY="396.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b13" layoutX="411.0" layoutY="396.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Button fx:id="b14" layoutX="552.0" layoutY="396.0" mnemonicParsing="false" onAction="#show" opacity="0.01" prefHeight="120.0" prefWidth="120.0" />
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="86.0" prefWidth="800.0" styleClass="title" stylesheets="@../../../fonts/styles.css" text="PARES MUSICALES" />
+   </children>
+</AnchorPane>

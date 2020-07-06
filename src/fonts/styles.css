@@ -1,0 +1,7 @@
+.title {
+    -fx-font-family: "Homework";
+    -fx-font-size: 40;
+}
+.button {
+    -fx-background-color: linear-gradient(to right,#454C9C,#59C5CA);
+}

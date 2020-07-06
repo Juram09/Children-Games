@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="games.multiplicator.logic.InstructionsController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/InstrMatematicas.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnPlay" layoutX="620.0" layoutY="558.0" mnemonicParsing="false" onAction="#play" opacity="0.01" prefHeight="32.0" prefWidth="157.0" />
+   </children>
+</AnchorPane>
