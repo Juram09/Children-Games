@@ -5,7 +5,7 @@
  */
 package games.pairs.logic;
 
-import data.Note;
+import games.pairs.data.Note;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
